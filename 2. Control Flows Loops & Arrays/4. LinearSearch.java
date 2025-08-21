@@ -18,6 +18,7 @@ class Main {
         for(int i=0;i<size;i++){
             if(inputArr[i]==target){
                 result = i;
+                break;
             }else{
                 result = -1;
             }
