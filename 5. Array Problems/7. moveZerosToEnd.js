@@ -4,11 +4,11 @@ if (!arr.length) {
   console.log('arr is empty');
   return;
 }
-
+let nonZeroCounter = 0;
 for (i = 0; i < arr.length - 1; i++) {
-  if (arr[i] == 0) {
-    arr.splice(i, 1);
-    arr.push(0);
+  if (arr[i] != 0) {
+    [arr[nonZeroCounter], arr[i]] = [arr[i], arr[nonZeroCounter]];
+    nonZeroCounter++;
   }
 }
 console.log(arr);
