@@ -42,17 +42,17 @@ class LinkedList {
 
   getHead() {
     if (this.head === null) {
-      console.log("Head: null");
+      console.log('Head: null');
     } else {
-      console.log("Head: " + this.head.value);
+      console.log('Head: ' + this.head.value);
     }
   }
 
   getTail() {
     if (this.tail === null) {
-      console.log("Tail: null");
+      console.log('Tail: null');
     } else {
-      console.log("Tail: " + this.tail.value);
+      console.log('Tail: ' + this.tail.value);
     }
   }
 
@@ -77,9 +77,8 @@ class LinkedList {
     let slow = this.head;
     let fast = this.head;
     while (fast && fast.next) {
-      let temp = slow;
-      slow = temp.next;
-      fast = slow.next;
+      slow = slow.next;
+      fast = fast.next.next;
     }
     return slow;
   }
@@ -91,7 +90,7 @@ myLinkedList.push(3);
 myLinkedList.push(4);
 myLinkedList.push(5);
 
-console.log("Original list:");
+console.log('Original list:');
 myLinkedList.printList();
 
 const middleNode = myLinkedList.findMiddleNode();
@@ -105,7 +104,7 @@ myLinkedList2.push(4);
 myLinkedList2.push(5);
 myLinkedList2.push(6);
 
-console.log("\nOriginal list 2:");
+console.log('\nOriginal list 2:');
 myLinkedList2.printList();
 
 const middleNode2 = myLinkedList2.findMiddleNode();
