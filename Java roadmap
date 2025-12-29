@@ -1,0 +1,157 @@
+---
+---
+
+# Months 1–3 — Java Fundamentals
+
+## Course
+
+### **Java Programming Masterclass for Software Developers**
+
+**Instructor:** Tim Buchalka
+**Platform:** Udemy
+
+### Why THIS course
+
+- Best Java **language + OOP** foundation available
+- Excellent explanations (not rushed)
+- Very strong on:
+
+  - OOP
+  - Collections
+  - Clean Java thinking
+
+### What to focus on
+
+Classes & OOP
+Interfaces & abstraction
+Collections (List, Map, Set)
+Exception handling
+
+Skip / skim:
+
+- JavaFX
+- UI-heavy sections
+
+Outcome: **You think in Java, not translate from Node.js**
+
+---
+
+# Months 4–6 — Java Backend (Spring Boot Core)
+
+## Course
+
+### **Spring & Hibernate for Beginners (includes Spring Boot)**
+
+**Instructor:** Chad Darby
+**Platform:** Udemy
+
+### Covers (job-critical)
+
+Spring Core (DI, IoC)
+Spring Boot
+REST APIs
+Hibernate / JPA
+Database integration
+
+outcome: **You can build real Java REST APIs confidently**
+
+---
+
+# Months 7–9 — Microservices + Concurrency
+
+---
+
+##Course 1 — Microservices
+
+### **Microservices with Spring Boot and Spring Cloud**
+
+**Instructor:** In28Minutes (Ranga Karanam)
+**Platform:** Udemy
+
+### Focus ONLY on:
+
+Monolith vs microservices
+REST-based communication
+Config concepts
+Fault tolerance concepts
+Docker basics
+
+NOT over-focus on:
+
+- Netflix OSS internals
+- Tool memorization
+
+outcome: **You understand Java microservices architecture**
+
+---
+
+# Course 2 — Concurrency & Performance
+
+### **Java Multithreading, Concurrency & Performance Optimization**
+
+**Instructor:** Dmitry Jemerov / similar top-rated
+**Platform:** Udemy
+
+### Focus areas
+
+Threads vs processes
+Executors & thread pools
+CPU vs I/O workloads
+When Java beats Node.js
+
+outcome: **You can explain performance tradeoffs confidently**
+
+---
+
+# Months 10–12 — System Design + Authority
+
+---
+
+##Course 1 — System Design
+
+### **Grokking the System Design Interview**
+
+**Platform:** Educative
+
+### Covers:
+
+URL shortener
+File upload systems
+Notification systems
+Scaling patterns
+
+outcome: **You pass senior backend interviews**
+
+---
+
+# Course / Book 2 — Data-Intensive Systems
+
+### **Designing Data-Intensive Applications**
+
+**Author:** Martin Kleppmann
+**Format:** Book / Educative summaries
+
+### How to use it
+
+don’t read cover to cover
+Study selected chapters:
+
+- Caching
+- Consistency
+- Messaging
+- Databases at scale
+
+0utcome: **You think like an architect**
+
+---
+
+# 🧾 FINAL CONFIRMED COURSE MAP
+
+| Months | Exact Course                                                     |
+| ------ | ---------------------------------------------------------------- |
+| 1–3    | Java Programming Masterclass – Tim Buchalka                      |
+| 4–6    | Spring & Hibernate for Beginners – Chad Darby                    |
+| 7–9    | Microservices with Spring Boot & Spring Cloud + Java Concurrency |
+| 10–12  | Grokking System Design + Designing Data-Intensive Applications   |
+
+---
